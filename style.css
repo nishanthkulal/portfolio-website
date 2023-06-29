@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

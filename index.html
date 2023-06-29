@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nishanth - Python Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    header h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin: 10px 0;
+    }
+
+    section {
+      background-color: #ffffff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 0 0 20px;
+    }
+
+    h4 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #333333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .project-icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    .navbar {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar ul {
+      display: flex;
+    }
+
+    .navbar li {
+      margin-left: 10px;
+    }
+
+    .navbar a {
+      color: #ffffff;
+    }
+
+    .footer {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background-color: #f5f5f5;
+      color: #333333;
+      padding: 8px 16px;
+      border-radius: 20px;
+      margin: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/image1.jpg" alt="nishanth photo">
+    <h1>Nishanth</h1>
+    <h2>Python Developer</h2>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+      <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h3>About</h3>
+    <p>Highly interested in web development and Python development.</p>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <ul>
+      <li>
+        <div class="project">
+          <i class="fas fa-file-code project-icon"></i>
+          <div>
+            <h4>FORMATTED QP</h4>
+            <p>Web project which generates a formatted question paper, which saves time in adjusting each text and other formats.</p>
+            <p>Technologies used: HTML5, CSS, Bootstrap 5.0, PHP, MySQL (SQL).</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="project">
+          <i class="fas fa-tasks project-icon"></i>
+          <div>
+            <h4>TO-DO APP (FLUTTER)</h4>
+            <p>A simple app that lists out daily activities. This project is in the development phase.</p>
+            <p>Technology used: Dart programming language.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="project">
+          <i class="fas fa-gamepad project-icon"></i>
+          <div>
+            <h4>Tic-Tac-Toe APP (ANDROID)</h4>
+            <p>Data analytics dashboard for business intelligence.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="project">
+          <i class="fas fa-calculator project-icon"></i>
+          <div>
+            <h4>Calculator using Python</h4>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="project">
+          <i class="fas fa-envelope project-icon"></i>
+          <div>
+            <h4>Email Extractor using Python</h4>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="skills-container">
+      <span class="skill">Python</span>
+      <span class="skill">Java</span>
+      <span class="skill">HTML/CSS</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Docker</span>
+    </div>
+  </section>
+
+  <section id="education">
+    <h3>Education</h3>
+    <ul>
+      <li>B.E IN COMPUTER SCIENCE | AJ INSTITUTE OF ENGINEERING AND TECHNOLOGY, MANGALORE | CGPA 7.59</li>
+      <li>PU State Board | 82%</li>
+      <li>SSLC State Board | 91%</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <ul>
+      <li>Email: nishanthkulal9741@gmail.com</li>
+      <li>Phone: (+91) 8088144601</li>
+      <li>GitHub: <a href="https://github.com/nishanthkulal">github.com/nishanthkulal</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Nishanth</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
